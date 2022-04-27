@@ -1,0 +1,103 @@
+* {
+    border:0;
+    margin:0;
+    padding:0;
+    background-color: rgba(251, 240, 28, 0.041);
+}
+
+header{
+    background: rgba(251, 239, 4, 0.527);
+    margin:0 auto;
+    max-width:90%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav{
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.logo h1 {
+    font-size: 2.5em;
+    color: rgb(237, 81, 81);
+    margin: 0;
+    padding: 20px;
+}
+
+nav ul{
+    list-style: none;
+    /*list-style para borrar las viñetas*/
+}
+
+nav li{
+    display: inline-block;
+    /* mostrar las opciones en linea horiz*/
+    padding: 5px;
+    vertical-align: top;
+}
+
+
+nav a{
+    background : #FFF;
+    border: 1px solid #FC7C3D;
+    border-radius: 0.25em;
+    box-shadow: 0 0 10px 1px;
+    color: #4e5e05;
+    display: block;
+    font-family: Helvetica, verdana;
+    font-size: 1.2em;
+    padding: 0.2em;
+
+}
+
+nav a:hover{
+    background: #FC7C3D;
+    border:0.1em solid #5E0525;
+    border-radius: 0.25em;
+    color:#FFF;
+}
+
+.info_cities{
+    background: rgba(227, 220, 15, 0.38);
+    padding-top: 15px;
+    margin:0 auto;
+    max-width:90%;
+    text-align: center;
+}
+
+.cities {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+img:hover {
+    filter: grayscale(80%);
+}
+
+
+.info_cities h2{
+    font-family: Helvetica, verdana;
+    font-size: 1.5em;
+    color: #4e5e05;
+    text-align: center;
+}
+
+
+.info_cities p{
+    font-family: Helvetica, verdana;
+    font-size: 1.2em;
+    color: #4e5e05;
+    text-align: justify;
+    width: 500px;
+    margin: auto;
+}
